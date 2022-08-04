@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+
+    <style>
+        /* conteudo principal <main></main> 
+    cabeçalho <header></header>
+    rodape: <footer> */
+        
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: gainsboro;
+            margin: 0px;
+        }
+
+        header{
+            background-color: floralwhite;
+            padding: 10px;
+            margin: 10px;
+
+        }
+
+        main{
+            background-color: lightpink;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.404);
+        }
+
+        article{
+            background-color: rgb(255, 226, 230);
+            padding: 5px;
+
+        }
+
+        nav{
+            background-color: rgb(255, 210, 217);
+            padding: 3px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.514);
+
+        }
+
+        nav> a{
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            margin-right: 20px;
+            
+        }
+
+        nav> a:hover{
+            text-decoration: underline;    
+
+        }
+
+        article> aside{
+            background-color:rgba(0, 0, 0, 0.671);
+            color: white;
+            
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+
+        footer>p{
+            margin: 0px;
+
+        }
+
+        div#bola{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50px;
+
+        }
+
+
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#"> Link</a>
+            <a href="#"> Link</a>
+            <a href="#"> Link</a>
+            <a href="#"> Link</a>
+            <a href="#"> Link</a>
+        </nav>
+
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esporte, Política e Tecnologia.</p>
+
+        </section>
+        <section id="noticias">
+
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae quia eum impedit, animi nemo ut facilis incidunt fuga accusamus harum alias optio nostrum vel explicabo quis, repudiandae inventore! Accusamus, labore.</p>
+                <aside>
+                    <p>Artigo escrito por Rafael Rocha.</p>
+
+                </aside>
+
+            </article>
+
+            <article>
+
+
+            </article>
+
+        </section>
+
+    </main>
+    <footer>
+        <p>Desenvolvimento feito pela Adriana Galdino</p>
+
+    </footer>
+    <div id="bola"></div>
+
+</body>
+
+</html>

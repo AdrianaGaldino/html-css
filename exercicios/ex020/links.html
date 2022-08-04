@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+
+/* a:visited : links quando clicam mudam de cor 
+text-decoration: none: tira o sublinhado
+a:active: link quando clicado muda de cor
+a::after -  exemplo: depois 'de todos os links' - content: conteúdo
+a::before - exemplo: antes 'de todos os links'
+
+#: id
+.: class
+: pseud-class
+:: pseudo-element
+> filho (children)
+
+*/
+
+body{
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+
+}
+
+a{
+color: blueviolet;
+text-decoration: none;
+
+}
+
+a:visited{
+color: rgb(170, 6, 0);
+
+}
+
+a:hover {
+    color: black;
+    text-decoration: underline;
+
+}
+
+a:active{
+ color:aquamarine
+
+}
+
+a::after{
+content:  ' [link]';
+text-decoration: none;
+font-weight: normal;
+color:darkgreen
+
+}
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando itens</h1>
+<ul>
+
+<li><a href="www.adrianagaldino.com.br" target="_blank">Site Adriana Galdino</a></li>
+<li><a href="https://www.youtube.com/channel/UCT9V_fsBw-g4RmA2SeiBY1Q" target="_blank">Canal do Youtube</a></li>
+<li><a href="https://www.instagram.com/galdinoatelie/" target="_blank">Instagram</a></li>
+
+</ul>
+</body>
+</html>

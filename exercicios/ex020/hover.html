@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Hover</title>
+
+<style>
+/* div > p esconde , exemplo como ele é um paragrafo se colocar dessa forma vc vai esconder
+none: nao mostre nada
+*/
+
+div > p {
+
+    display: none;
+}
+
+div:hover > p {
+display: block;
+color: whitesmoke;
+background-color:blueviolet;
+width: 300px;
+
+}
+
+body{
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+div:hover{
+color: rgb(98, 195, 162);
+
+}
+    
+</style>
+
+</head>
+<body>
+    <h1> Exemplo de hover</h1>
+    <p> Passe o mouse sobre o texto abaixo</p>
+    <div> Passe o mouse aqui 
+<p> Texto escondido ...</p>
+ </div>
+<p> Fim do exemplo</p>
+</body>
+</html>
